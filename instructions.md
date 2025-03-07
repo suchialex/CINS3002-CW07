@@ -39,7 +39,7 @@
   - Create a Python file - main.py
   - Inside the project create a new folder **cw07**
   - Create files dict_functions.py and validations.py
-  - Download products.bin
+  - Download [products.bin](https://github.com/suchialex/CINS3002-CW07/blob/main/products.bin)
   - If needed, download [suchi_pretty_print](https://github.com/suchialex/pretty-print/blob/main/suchi_pretty_print.py) 
 </details>
 
