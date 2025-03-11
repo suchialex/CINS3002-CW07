@@ -71,7 +71,7 @@
   - It accepts no parameters
   - It returns the products dictionary
   - In the function body,
-    - Check if there is any data in product.bin inside the cw07 folder
+    - Check if there is any data in product.bin inside the cw07 folder (may have to import the os module)
       - if no data, then return an empty dictionary
     - Using context manager, unpickle the contents of the file products.bin to a dictionary and store in a variable of your choice
     ⏩ Refer to 9-11
@@ -238,15 +238,6 @@ Quantity: 15
 
 <details>
   <summary>
-    ✅ Same for modify_price, modify_quantity
-  </summary>
-
-  - Do the same steps as above for modifying price and quantity
-</details>
-
-
-<details>
-  <summary>
     ✅ Define display_products()
   </summary>
 
@@ -318,6 +309,15 @@ Quantity: 15
   - Print the products dictionary to test (you may comment it out later)
 </details>
 
+<details>
+  <summary>
+    ✅ Define modify_price, modify_quantity
+  </summary>
+
+  - Using the code logic you used for modifying product name, write these two functions to modify price and quantity
+  - You may copy/paste code from modify_name() function and edit the appropriate indexes
+</details>
+
 
 <details>
   <summary>
@@ -348,6 +348,7 @@ Quantity: 15
   - Inside a while loop that runs **until user presses 0**, print menu of options, get user's choice and inside the if-elif-else blocks calls the appropriate functions
   - Outside the while loop call dictionary_to_file() function
   - Also make sure add_product is in a while loop until user presses **y or Y**
+  - You may copy/paste parts of this function from previous assignments
 </details>
 
 
